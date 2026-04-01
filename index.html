@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <img src="icon.png" class="logo-icon" alt="Logo">
+                    <span>G<span>ALERIA</span></span>
+                </div>
+                <button class="close-btn" id="closeSidebar" aria-label="Fechar menu">&times;</button>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-link active">VOCÊ</a>
+                <a href="music.html" class="nav-link">MÚSICA</a>
+                <a href="sudoku.html" class="nav-link">SUDOKU</a>
+            </nav>
+        </aside>
+
+        <div class="overlay" id="overlay"></div>
+
+        <div class="content">
+            <header class="topbar">
+                <button class="menu-btn" id="openSidebar" aria-label="Abrir menu">☰</button>
+                <h1 class="topbar-title">Você, minha constelação</h1>
+            </header>
+
+            <main class="main main-love">
+                <p class="love-fill" aria-hidden="true">
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                    love love love love love love love love love love love love love love love love
+                </p>
+            </main>
+
+            <footer class="footer">
+                <p class="footer-text">De: Nico <span aria-hidden="true">•</span> Para: Gigica</p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+        const openBtn = document.getElementById('openSidebar');
+        const closeBtn = document.getElementById('closeSidebar');
+
+        function openSidebar() {
+            sidebar.classList.add('open');
+            overlay.classList.add('show');
+        }
+
+        function closeSidebar() {
+            sidebar.classList.remove('open');
+            overlay.classList.remove('show');
+        }
+
+        openBtn.addEventListener('click', openSidebar);
+        closeBtn.addEventListener('click', closeSidebar);
+        overlay.addEventListener('click', closeSidebar);
+    </script>
+</body>
+</html>
